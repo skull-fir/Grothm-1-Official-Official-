@@ -1,13 +1,13 @@
 module.exports = {
     app: {
-        token: 'xxx',
-        playing: 'by the Community ❤️',
+        token: '',
+        playing: 'Grothm Development',
         global: true,
         guild: 'xxx',
         extraMessages: false,
         loopMessage: false,
         lang: 'en',
-        enableEmojis: false,
+        enableEmojis: true,
     },
 
     emojis:{
