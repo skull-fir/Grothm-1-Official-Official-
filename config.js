@@ -1,30 +1,30 @@
 module.exports = {
     app: {
-        token: '',
-        playing: 'Grothm Development',
+        token: "",
+        playing: "Music | Grothm ",
         global: true,
-        guild: 'xxx',
-        extraMessages: false,
-        loopMessage: false,
-        lang: 'en',
-        enableEmojis: true,
+        guild: "904186076330070087",
+        extraMessages: true,
+        loopMessage: true,
+        lang: "en",
+        enableEmojis: false,
     },
 
-    emojis:{
-        'back': '⏪',
-        'skip': '⏩',
-        'ResumePause': '⏯️',
-        'savetrack': '💾',
-        'volumeUp': '🔊',
-        'volumeDown': '🔉',
-        'loop': '🔁',
+    emojis: {
+        back: "⏪",
+        skip: "⏩",
+        ResumePause: "⏯️",
+        savetrack: "💾",
+        volumeUp: "🔊",
+        volumeDown: "🔉",
+        loop: "🔁",
     },
 
     opt: {
         DJ: {
             enabled: false,
-            roleName: '',
-            commands: []
+            roleName: "",
+            commands: [],
         },
         Translate_Timeout: 10000,
         maxVol: 100,
@@ -36,9 +36,9 @@ module.exports = {
         leaveOnEndCooldown: 30000,
         discordPlayer: {
             ytdlOptions: {
-                quality: 'highestaudio',
-                highWaterMark: 1 << 25
-            }
-        }
-    }
+                quality: "highestaudio",
+                highWaterMark: 1 << 25,
+            },
+        },
+    },
 };
