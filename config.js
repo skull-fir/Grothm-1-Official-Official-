@@ -1,6 +1,6 @@
 module.exports = {
     app: {
-        token: "",
+        token: "ODk1MTc5NDMzNzI2NTgyNzk0.Gm5rbN.u5wZIU9fgNJl2yTuWHnQWcxZLK3kbrjm9quhkM",
         playing: "Music | Grothm ",
         global: true,
         guild: "904186076330070087",
